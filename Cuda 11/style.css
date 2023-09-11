@@ -1,0 +1,640 @@
+/* Обнулення */
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+html,
+body {
+	height: 100%;
+	min-width: 20rem;
+	line-height: 1;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+button {
+	line-height: inherit;
+	font-weight: inherit;
+	font-size: inherit;
+	cursor: pointer;
+	color: inherit;
+	background-color: transparent;
+}
+
+/* Стилі за замовченням */
+/* 1 сторінка */
+
+html, body {
+    width: 100%;
+    height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+}
+.wrapper {
+	width: 1440px;
+    height: 6160px;
+	margin: 0 auto;
+}
+.header {
+	background-color: #87509C;
+	color:white;
+}
+
+.header__container {
+	width: 1011.02px;
+    height: 94px;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+	margin: 0 auto;
+	padding-top: 57.71px;
+}
+.header__logo {
+	width: 116.4px;
+    height: 36.29px;
+}
+
+.header__menu {
+	width: 411px;
+    height: 32px;
+	display: flex;
+    justify-content: right;
+}
+
+.menu__list {
+	list-style: none;
+    padding: 0;
+}
+.menu__item {
+	display: inline-block;
+	margin: 0 12px;
+}
+
+.active{
+	background-color: #643A79;
+	padding: 2.5px 15px;
+	border-radius: 5px;
+}
+.page {
+	width: 1440px;
+    height: 5954.97px;
+}
+.page__main {
+	height: 502.01px;
+	background-color: #87509C;
+	color:white;
+	padding-top: 133.11px;
+}
+
+.main-section__container {
+	width: 908px;
+    height: 223.89px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.main-section__title {
+	height:128px;
+	font-size: 42.15px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 1.2;
+}
+
+.main-section__btn{
+	width: 294px;
+    height: 70px;
+	border: none;
+	background-color: #EB7D4B;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	border-radius: 5px;
+	margin-top: 25.89px;
+}
+
+
+/* 2 сторінка */
+
+.page__services {
+	background-color: #17C2A4;
+    height: 747px;
+	color:white;
+	position: relative;
+}
+	
+.services__container {
+	max-width: 1050px;
+    height: 518.5px;
+	position: absolute;
+	top:106.5px;
+	left: 195px;
+}
+.services__content {
+	height: 208.5px;
+	display:flex;
+	flex-direction: column;
+    align-items: center;
+	
+}
+.services__title {
+	width: 404px;
+	height: 61px;
+	font-size: 40px;
+	font-weight: bold;
+	padding-top: 0;
+}
+
+.services__text {
+	font-size: 18px;
+	text-align: center;
+	
+}
+.info__content {
+	height: 310px;
+	width: 1050px;
+	display: flex;  
+}
+
+.info__item {
+	height: 190px;
+	width: 305px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 0 50px;
+}
+.info__item:last-child, .info__item:first-child {
+	margin: 0;
+}
+.info__image {
+	height: 120px;
+	width: 124px;
+	margin: 0 auto;
+}
+.info__title {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 55.25px;
+}
+.info__text {
+	width: 190px;
+	height: 72px;
+	font-size: 16px;
+	margin-top: 12.75px;
+	line-height: 1.5;
+}
+
+/* 3 сторінка */
+.page__team {
+	background-color: #E7F1F8;
+    height: 914.04px;
+	position: relative;
+}
+
+.team__container {
+	max-width: 1040px;
+    height: 680.88px;
+	position: absolute;
+	top: 107.12px;
+	left: 200px;
+}
+.team__content {
+	height: 189.88px;
+	display:flex;
+	flex-direction: column;
+    align-items: center;
+	
+}
+.team__title {
+	width: 1040px;
+	height: 61px;
+	font-size: 40.63px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 0;
+	padding-bottom: 10px;
+}
+.team__text {
+	font-size: 18.29px;
+	text-align: center;
+	padding: 10px 0;
+}
+.profile__content {
+	height: 310px;
+    display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.profile__item {
+	height: 491px;
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 73.76px;
+	margin-right: 80px;
+}
+.profile__item:last-child {
+	margin-right:0;
+}
+.profile__image {
+	height:auto;
+}
+
+.profile__proffesion{
+	color:#30BAE7;
+	margin-top: 10px;
+	font-size: 16px;
+}
+.profile__title {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 34px;
+}
+.profile__proffesion_desc{
+	font-size: 16px;
+	margin-top: 9px;
+}
+.profile__icons {
+	margin-top: 37px;
+}
+
+/* 4 сторінка */
+
+.page__skills {
+	background-color: #FFFFFF;
+    height: 655px;
+	position: relative;
+}
+
+.skills__container {
+	height: 440.75px;
+	width: 1000px;
+	position: absolute;
+	left:  220px;
+}
+.skills__header {
+	height: 310px;
+	display:flex;
+	flex-direction: column;
+    justify-content: center;
+	align-items:center;
+}
+
+.skills__title {
+	height: 61px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+.skills__text {
+	height: 54px;
+	width: 547px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 1.5;
+}
+.skills__content{
+	height: 222.25px;
+	width: 1000px;
+    display: flex;
+	justify-content: center;
+	align-items:center;
+	
+}
+.skills__item {
+	width: 160px;
+	height: 222.25px;
+	position: relative;
+	margin-right: 100px;
+	text-align: center;
+
+}
+.skills__item:last-child {
+	margin-right: 0;
+}
+.skills__image{
+	width: 160px;
+	height: 160px;
+	
+}
+.skills__item span {
+	position: absolute;
+	right:25%;
+	top: 25%;
+	font-size: 50px;
+
+}
+.skills__desc{
+	font-size: 21px;
+	font-weight: bold;
+	padding-top: 25.25px;
+	margin: 0 auto;
+}
+
+/* 5 сторінка  OUR PORTFOLIO*/
+
+.page__portfolio {
+	background-color: #FFDD99;
+    height: 1423.01px;
+	position: relative;
+}
+
+.portfolio__container {
+	width: 1103px;
+	height: 1206.5px;
+	margin: 0 auto;
+	position:absolute;
+	top: 107.5px;
+	left: 167px;
+	text-align: center;
+}
+
+.portfolio__content {
+	height: 785.030px;
+    width: 1103px;
+	display:flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+.portfolio__title {
+	height: 100px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.portfolio__text {
+	width: 498px;
+	height: 54px;
+	margin-top: 10px;
+	text-align: center;
+	line-height:1.4;
+}
+.portfolio__body {
+	width: 1103px;
+	height: 1206.5px;
+	display: flex;
+	justify-content:center;
+	margin-top: 38px;
+}
+
+.portfolio__menu {
+	width: 378px;
+    height: 38px;
+	display: flex;
+    justify-content: center;
+	align-items:center;
+}
+
+.portfolio_menu__link, .portfolio_active {
+	padding: 2.5px 10px;
+	border-radius: 5px;
+} 
+
+.portfolio_menu__link{
+	background-color:#fcc65b;
+}
+.portfolio_active{
+	background-color:white;
+}
+.portfolio__item {
+	height: 365px;
+	width: 541px;
+	margin-top: 62px;
+	
+}
+
+.portfolio__main_content{
+	display: flex;
+    flex-wrap: wrap;
+    
+}
+.portfolio__item_desc{
+	padding-top: 27px;
+	font-size:18px;
+}
+button{
+	width: 293px;
+    height: 70px;
+	border: none;
+	color:white;
+	background-color: #17C2A4;
+	padding: 21px 57px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	border-radius: 5px;
+	margin-top: 74px;
+}
+
+/* 6 сторінка About us */
+.page__about {
+    height: 894.1px;
+	position: relative;
+	background-color: #D74680;
+	color:white;
+}
+
+.about__container {
+	width: 1076px;
+	height: 680.5px;
+	margin: 0 auto;
+	position: absolute;
+	top: 106.5px;
+	left: 182px;
+}
+.about__content {
+	height: 218.87px;
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items:center;
+	
+}
+
+
+.about__title {
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 9px;
+}
+.about__text {
+	font-size: 18px;
+	text-align: center;
+}
+
+
+.about__content_rewiev{
+	width: 1076px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+
+
+
+}
+.about__item {
+	width: 502px;
+	height:195px;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.about__image {
+	max-height:96px;
+	max-width: 96px;
+	margin-right: 48px;
+	flex-grow: 1;
+}
+.about__text_item{
+	height: 185px;
+	width: 358px;
+	margin-right: 86px;
+}
+.about__text_message{ 
+	width: 358px;
+	height: 96px;
+	font-size: 21px;
+	font-style: italic;
+	margin-bottom: 32px;
+	line-height: 1.5;
+}
+.about__text_name{
+	font-size: 24px;
+}
+.about__text_disc{
+	color:#FFDD99;
+	font-style:normal;
+	
+}
+
+
+/* 7 сторінка */
+.page__get {
+	background-color: #3C5499;
+    height: 818.96px;
+	color:white;
+	position: relative;
+}
+
+.get__container {
+	width: 860px;
+	height: 596.5px;
+	position:absolute;
+	margin: 0 auto;
+	margin: 107.5px 290px 114.96px;
+	text-align: center;
+	padding-top: 0;
+}
+.get__content {
+	
+	display:flex;
+	flex-direction: column;
+    align-items: center;
+
+}
+.get__title {
+	height: 100px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.form {
+	padding-top: 72.12px;
+}
+.form__wrap{
+	width: 414px;
+	height: 283px;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.search-form__info{
+	display: flex;
+	margin-left: 30px;
+	
+	
+}
+.search-form__field{
+    width:414px;
+    height: 56px;
+	margin-right: 32px;
+	margin-bottom: 27px;
+	background-color: #273A71;
+}
+.inputField__text{
+	width: 860px;
+	height: 200px;
+	background-color: #273A71;
+	margin:0 auto;
+}
+
+.inputField__btn {
+	margin-bottom: 59px;
+	margin: 0 auto;
+}
+
+
+/* 8 сторінка */
+.footer {
+	background-color: #344B8E;
+    height: 112.03px;
+	color:white;
+}
+.footer__container{
+	width: 1440px;
+	font-size: 24px;
+	
+}
+.footer__menu {
+	
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.menu-footer__item{
+	margin-right: 65px;
+	margin-top: 41px;
+	
+}
+
+.menu-footer__link {
+	color:#30BAE7;
+}
+
+
